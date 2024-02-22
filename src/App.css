@@ -1,0 +1,89 @@
+/* navbar */
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  color: white;
+  cursor: pointer;
+}
+
+li.active {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer p{
+  text-align: center;
+  background-color: #333;
+  color: aliceblue;
+  padding: 10px;
+}
+/* Home */
+.center-image {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgb(125, 124, 124);
+  align-items: center;
+}
+.featured-manga{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 400px));
+  margin: 10px;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  background: #c8c8c8;
+  padding: 10px;
+  width: 55%;
+  border: 1px solid rgb(125, 124, 124);
+  border-radius: 10px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+}
+.other{
+  padding: 10px;
+  text-align: center;
+}
+.featured-manga-volumes{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(218px, 200px));
+  margin: 10px;
+  gap: 2rem;
+  justify-content: center;
+  background: #c8c8c8;
+  padding: 10px;
+  border: 1px solid rgb(125, 124, 124);
+  border-radius: 10px;
+}
+
+/* Manga Page */
+.manga-section{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:5rem;
+  margin: 20px;
+  border: #333;
+}
+.manga-section-images{
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(125, 124, 124);
+  border-radius: 10px;
+}
+
+.about-para{
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  font-family:sans-serif;
+}
