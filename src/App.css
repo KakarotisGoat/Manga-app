@@ -10,13 +10,10 @@ ul {
   justify-content: space-around;
 }
 
-li {
-  color: white;
-  cursor: pointer;
-}
-
-li.active {
-  text-decoration: underline;
+.route{
+  text-decoration: none;
+  color: #fffefe;
+  font-size: x-large;
 }
 
 /* Footer */
@@ -81,6 +78,7 @@ footer p{
   border-radius: 10px;
 }
 
+/* About page */
 .about-para{
   text-align: center;
   font-size: larger;
