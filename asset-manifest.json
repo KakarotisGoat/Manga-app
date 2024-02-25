@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Manga-app/static/css/main.9928f075.css",
+    "main.js": "/Manga-app/static/js/main.8bfb7940.js",
+    "static/js/453.64512fd7.chunk.js": "/Manga-app/static/js/453.64512fd7.chunk.js",
+    "index.html": "/Manga-app/index.html",
+    "main.9928f075.css.map": "/Manga-app/static/css/main.9928f075.css.map",
+    "main.8bfb7940.js.map": "/Manga-app/static/js/main.8bfb7940.js.map",
+    "453.64512fd7.chunk.js.map": "/Manga-app/static/js/453.64512fd7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9928f075.css",
+    "static/js/main.8bfb7940.js"
+  ]
+}
